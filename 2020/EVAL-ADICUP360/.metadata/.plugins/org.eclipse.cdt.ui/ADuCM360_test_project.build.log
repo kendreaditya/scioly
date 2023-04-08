@@ -1,0 +1,132 @@
+23:57:58 **** Build of configuration Debug for project ADuCM360_test_project ****
+make all 
+'Building file: ../system/adi_initialize.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-ef4be6b619a8b9e1cb2ea7cf009df427.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"system/adi_initialize.d" -MT"system/adi_initialize.o" -o  "system/adi_initialize.o" "../system/adi_initialize.c"
+In file included from C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/adi_processor.h:56:0,
+                 from C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/sys/platform.h:50,
+                 from ../system/adi_initialize.c:10:
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:893:3: error: unknown type name '__IO'
+   __IO uint16_t  LD;                        /*!< 16-bit load value                     */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:893:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'LD'
+   __IO uint16_t  LD;                        /*!< 16-bit load value                     */
+                  ^~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1203:3: error: unknown type name '__IO'
+   __IO uint16_t  PWMCON0;                   /*!< PWM Control register                  */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1203:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'PWMCON0'
+   __IO uint16_t  PWMCON0;                   /*!< PWM Control register                  */
+                  ^~~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1438:3: error: unknown type name '__IO'
+   __IO uint8_t   PWRMOD;                    /*!< Power modes register                  */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1438:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'PWRMOD'
+   __IO uint8_t   PWRMOD;                    /*!< Power modes register                  */
+                  ^~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1486:5: error: unknown type name '__IO'
+     __IO uint8_t   RSTSTA;                  /*!< Reset Status                          */
+     ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1486:20: error: expected ':', ',', ';', '}' or '__attribute__' before 'RSTSTA'
+     __IO uint8_t   RSTSTA;                  /*!< Reset Status                          */
+                    ^~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1567:3: error: unknown type name '__IO'
+   __IO uint16_t  EI0CFG;                    /*!< External Interrupt configuration register 0 */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1567:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'EI0CFG'
+   __IO uint16_t  EI0CFG;                    /*!< External Interrupt configuration register 0 */
+                  ^~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1766:3: error: unknown type name '__IO'
+   __IO uint16_t  T3LD;                      /*!< Load value.                           */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1766:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'T3LD'
+   __IO uint16_t  T3LD;                      /*!< Load value.                           */
+                  ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1889:3: error: unknown type name '__IO'
+   __IO uint16_t  T2VAL0;                    /*!< Current count value LSB               */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:1889:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'T2VAL0'
+   __IO uint16_t  T2VAL0;                    /*!< Current count value LSB               */
+                  ^~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:2188:3: error: unknown type name '__IO'
+   __IO uint16_t  CLKCON0;                   /*!< System clocking architecture control register */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:2188:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'CLKCON0'
+   __IO uint16_t  CLKCON0;                   /*!< System clocking architecture control register */
+                  ^~~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:2404:3: error: unknown type name '__IO'
+   __IO uint16_t  FEESTA;                    /*!< Status Register                       */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:2404:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'FEESTA'
+   __IO uint16_t  FEESTA;                    /*!< Status Register                       */
+                  ^~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:2904:3: error: unknown type name '__IO'
+   __IO uint16_t  I2CMCON;                   /*!< Master Control Register               */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:2904:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'I2CMCON'
+   __IO uint16_t  I2CMCON;                   /*!< Master Control Register               */
+                  ^~~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:3465:3: error: unknown type name '__IO'
+   __IO uint16_t  SPISTA;                    /*!< Status Register                       */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:3465:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'SPISTA'
+   __IO uint16_t  SPISTA;                    /*!< Status Register                       */
+                  ^~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:3973:5: error: unknown type name '__IO'
+     __IO uint8_t   COMTX;                   /*!< Transmit Holding register             */
+     ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:3973:20: error: expected ':', ',', ';', '}' or '__attribute__' before 'COMTX'
+     __IO uint8_t   COMTX;                   /*!< Transmit Holding register             */
+                    ^~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:3976:3: error: unknown type name '__I'
+   __I  uint8_t   RESERVED0[3];
+   ^~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:3976:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'RESERVED0'
+   __I  uint8_t   RESERVED0[3];
+                  ^~~~~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:4319:3: error: unknown type name '__IO'
+   __IO uint16_t  GPCON;                     /*!< GPIO Port 0 configuration             */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:4319:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'GPCON'
+   __IO uint16_t  GPCON;                     /*!< GPIO Port 0 configuration             */
+                  ^~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:5849:3: error: unknown type name '__I'
+   __I  uint32_t  RESERVED0[12];
+   ^~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:5849:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'RESERVED0'
+   __I  uint32_t  RESERVED0[12];
+                  ^~~~~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:5942:3: error: unknown type name '__IO'
+   __IO uint32_t  DMASTA;                    /*!< Returns the status of the controller when not in the reset state. */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:5942:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'DMASTA'
+   __IO uint32_t  DMASTA;                    /*!< Returns the status of the controller when not in the reset state. */
+                  ^~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:8810:3: error: unknown type name '__IO'
+   __IO uint8_t   STA;                       /*!< ADC Status register                   */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:8810:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'STA'
+   __IO uint8_t   STA;                       /*!< ADC Status register                   */
+                  ^~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:9675:3: error: unknown type name '__IO'
+   __IO uint16_t  DETCON;                    /*!< Control register for reference detection and the step detection filter */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:9675:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'DETCON'
+   __IO uint16_t  DETCON;                    /*!< Control register for reference detection and the step detection filter */
+                  ^~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:9784:3: error: unknown type name '__I'
+   __I  uint32_t  RESERVED0[2];
+   ^~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:9784:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'RESERVED0'
+   __I  uint32_t  RESERVED0[2];
+                  ^~~~~~~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:9839:3: error: unknown type name '__IO'
+   __IO uint16_t  DACCON;                    /*!< Control Register                      */
+   ^~~~
+C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include/ADuCM360.h:9839:18: error: expected ':', ',', ';', '}' or '__attribute__' before 'DACCON'
+   __IO uint16_t  DACCON;                    /*!< Control Register                      */
+                  ^~~~~~
+make: *** [system/adi_initialize.o] Error 1
+
+23:58:01 Build Finished (took 2s.375ms)
+

@@ -1,0 +1,2 @@
+"src/mian.o"
+"src/tempCalc.o"

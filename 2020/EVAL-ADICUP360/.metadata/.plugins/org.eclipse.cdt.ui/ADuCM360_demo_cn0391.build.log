@@ -1,0 +1,75 @@
+12:33:00 **** Build of configuration Debug for project ADuCM360_demo_cn0391 ****
+make all 
+'Building file: ../system/adi_initialize.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-e8182d84a364bf42ec544fc8d3af1c7c.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"system/adi_initialize.d" -MT"system/adi_initialize.o" -o  "system/adi_initialize.o" "../system/adi_initialize.c"
+'Finished building: ../system/adi_initialize.c'
+' '
+'Building file: ../src/AD7124.cpp'
+'Invoking: CrossCore GCC ARM Embedded C++ Compiler'
+arm-none-eabi-g++ -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-c350cfc30e6ca3bed79f8ad93db9985b.txt -Wall -std=gnu++11 -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/AD7124.d" -MT"src/AD7124.o" -o  "src/AD7124.o" "../src/AD7124.cpp"
+'Finished building: ../src/AD7124.cpp'
+' '
+'Building file: ../src/CN0391.cpp'
+'Invoking: CrossCore GCC ARM Embedded C++ Compiler'
+arm-none-eabi-g++ -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-c350cfc30e6ca3bed79f8ad93db9985b.txt -Wall -std=gnu++11 -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/CN0391.d" -MT"src/CN0391.o" -o  "src/CN0391.o" "../src/CN0391.cpp"
+'Finished building: ../src/CN0391.cpp'
+' '
+'Building file: ../src/Communication.cpp'
+'Invoking: CrossCore GCC ARM Embedded C++ Compiler'
+arm-none-eabi-g++ -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-c350cfc30e6ca3bed79f8ad93db9985b.txt -Wall -std=gnu++11 -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/Communication.d" -MT"src/Communication.o" -o  "src/Communication.o" "../src/Communication.cpp"
+'Finished building: ../src/Communication.cpp'
+' '
+'Building file: ../src/Timer.cpp'
+'Invoking: CrossCore GCC ARM Embedded C++ Compiler'
+arm-none-eabi-g++ -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-c350cfc30e6ca3bed79f8ad93db9985b.txt -Wall -std=gnu++11 -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/Timer.d" -MT"src/Timer.o" -o  "src/Timer.o" "../src/Timer.cpp"
+'Finished building: ../src/Timer.cpp'
+' '
+'Building file: ../src/main.cpp'
+'Invoking: CrossCore GCC ARM Embedded C++ Compiler'
+arm-none-eabi-g++ -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-c350cfc30e6ca3bed79f8ad93db9985b.txt -Wall -std=gnu++11 -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/main.d" -MT"src/main.o" -o  "src/main.o" "../src/main.cpp"
+'Finished building: ../src/main.cpp'
+' '
+'Building file: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/ClkLib.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-e8182d84a364bf42ec544fc8d3af1c7c.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"RTE/Device/ADuCM360/ClkLib.d" -MT"RTE/Device/ADuCM360/ClkLib.o" -o  "RTE/Device/ADuCM360/ClkLib.o" "C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/ClkLib.c"
+'Finished building: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/ClkLib.c'
+' '
+'Building file: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/DioLib.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-e8182d84a364bf42ec544fc8d3af1c7c.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"RTE/Device/ADuCM360/DioLib.d" -MT"RTE/Device/ADuCM360/DioLib.o" -o  "RTE/Device/ADuCM360/DioLib.o" "C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/DioLib.c"
+'Finished building: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/DioLib.c'
+' '
+'Building file: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/DmaLib.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-e8182d84a364bf42ec544fc8d3af1c7c.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"RTE/Device/ADuCM360/DmaLib.d" -MT"RTE/Device/ADuCM360/DmaLib.o" -o  "RTE/Device/ADuCM360/DmaLib.o" "C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/DmaLib.c"
+'Finished building: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/DmaLib.c'
+' '
+'Building file: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/SpiLib.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-e8182d84a364bf42ec544fc8d3af1c7c.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"RTE/Device/ADuCM360/SpiLib.d" -MT"RTE/Device/ADuCM360/SpiLib.o" -o  "RTE/Device/ADuCM360/SpiLib.o" "C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/SpiLib.c"
+'Finished building: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/SpiLib.c'
+' '
+'Building file: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/UrtLib.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-e8182d84a364bf42ec544fc8d3af1c7c.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"RTE/Device/ADuCM360/UrtLib.d" -MT"RTE/Device/ADuCM360/UrtLib.o" -o  "RTE/Device/ADuCM360/UrtLib.o" "C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/UrtLib.c"
+'Finished building: C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Source/drivers/UrtLib.c'
+' '
+'Building file: ../RTE/Device/ADuCM360/startup_ADuCM360.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-e8182d84a364bf42ec544fc8d3af1c7c.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"RTE/Device/ADuCM360/startup_ADuCM360.d" -MT"RTE/Device/ADuCM360/startup_ADuCM360.o" -o  "RTE/Device/ADuCM360/startup_ADuCM360.o" "../RTE/Device/ADuCM360/startup_ADuCM360.c"
+'Finished building: ../RTE/Device/ADuCM360/startup_ADuCM360.c'
+' '
+'Building file: ../RTE/Device/ADuCM360/system_ADuCM360.c'
+'Invoking: CrossCore GCC ARM Embedded C Compiler'
+arm-none-eabi-gcc -g -gdwarf-2 -ffunction-sections -fdata-sections -DCORE0 -D_DEBUG -DADuCM360 -D_RTE_ -D__ADUCM360__ @includes-e8182d84a364bf42ec544fc8d3af1c7c.txt -Wall -c -mcpu=cortex-m3 -mthumb -MMD -MP -MF"RTE/Device/ADuCM360/system_ADuCM360.d" -MT"RTE/Device/ADuCM360/system_ADuCM360.o" -o  "RTE/Device/ADuCM360/system_ADuCM360.o" "../RTE/Device/ADuCM360/system_ADuCM360.c"
+'Finished building: ../RTE/Device/ADuCM360/system_ADuCM360.c'
+' '
+'Building target: ADuCM360_demo_cn0391'
+'Invoking: CrossCore GCC ARM Embedded C++ Linker'
+arm-none-eabi-g++ -TC:\Users\akend\git\EVAL-ADICUP360\new\projects\ADuCM360_demo_cn0391/RTE/Device/ADuCM360/ADuCM360.ld -Wl,--gc-sections -mcpu=cortex-m3 -mthumb -specs=nosys.specs -o  "ADuCM360_demo_cn0391" @input-file.txt
+'Finished building target: ADuCM360_demo_cn0391'
+' '
+
+12:33:05 Build Finished (took 4s.613ms)
+

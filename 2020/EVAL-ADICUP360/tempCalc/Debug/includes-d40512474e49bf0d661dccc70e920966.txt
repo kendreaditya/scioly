@@ -1,0 +1,3 @@
+-I"C:/OneDrive - Cumberland Valley School District/Scioly/EVAL-ADICUP360/tempCalc/system"
+-I"C:/Analog Devices/CrossCore Embedded Studio 2.8.0/ARM/packs/AnalogDevices/ADuCM36x_DFP/1.0.4/Device/Include"
+-I"C:/OneDrive - Cumberland Valley School District/Scioly/EVAL-ADICUP360/tempCalc/RTE"

@@ -1,0 +1,3 @@
+hoodie_cv - #171414
+t-shirt_cv - #FFFFFF
+t-shirt_ev - #2B384B

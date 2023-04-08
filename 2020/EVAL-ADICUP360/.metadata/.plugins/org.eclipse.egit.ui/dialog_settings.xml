@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/analogdevicesinc/EVAL-ADICUP360.git"/>
+		<item value="https://github.com/analogdevicesinc/EVAL-ADICUP360/tree/a07fc41d07eb9ad6a9d9f8a46e4ff030e6361127"/>
+		<item value="https://github.com/dxylove/EVAL-ADICUP360.git"/>
+		<item value="https://github.com/dxylove/EVAL-ADICUP360/tree/2095e3d2c87cc4f99c03c6bbfd0fb58ed4146cf5/projects/ADuCM360_demo_blink"/>
+		<item value="https://github.com/dxylove/EVAL-ADICUP360/tree/2095e3d2c87cc4f99c03c6bbfd0fb58ed4146cf5/projects/ADuCM360_demo_blink.git"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+</section>

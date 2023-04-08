@@ -1,0 +1,15 @@
+/*****************************************************************************
+ * test.c
+ *****************************************************************************/
+
+#include <sys/platform.h>
+#include "test.h"
+
+int main(int argc, char *argv[])
+{
+	
+	/* Begin adding your custom code here */
+
+	return 0;
+}
+
